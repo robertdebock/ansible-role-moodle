@@ -1,13 +1,37 @@
 ---
 # vars file for moodle
 
-moodle_requirements:
-  - php-pear-MDB2-Driver-mysqli
-  - php-zip
-  - php-gd
-  - php-intl
-  - php-xmlrpc
-  - php-soap
+_moodle_requirements:
+  default:
+    - php-pear-MDB2-Driver-mysqli
+    - php-zip
+    - php-gd
+    - php-intl
+    - php-xmlrpc
+    - php-soap
+  RedHat-8:
+    - php-mysqlnd
+    - php-zip
+    - php-gd
+    - php-intl
+    - php-xmlrpc
+    - php-soap
+  Debian:
+    - php-mysqli
+    - php-zip
+    - php-gd
+    - php-intl
+    - php-xmlrpc
+    - php-soap
+  Suse:
+    - php7-mysql
+    - php7-zip
+    - php7-gd
+    - php7-intl
+    - php7-xmlrpc
+    - php7-soap
+
+moodle_requirements: "{{ _moodle_requirements[ansible_os_family ~ '-' ~ ansible_distribution_major_version] | default(_moodle_requirements[ansible_os_family] | default(_moodle_requirements['default'])) }}"
 
 moodle_src: "https://download.moodle.org/download.php/direct/stable{{ moodle_version }}/moodle-latest-{{ moodle_version }}.zip"
 

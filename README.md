@@ -120,7 +120,6 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 
 |container|tags|
 |---------|----|
-|alpine|all|
 |el|7, 8|
 |debian|buster, bullseye|
 |fedora|all|
@@ -133,6 +132,13 @@ The minimum version of Ansible required is 2.9, tests have been done to:
 - The current version.
 - The development version.
 
+## [Exceptions](#exceptions)
+
+Some variarations of the build matrix do not work. These are the variations and reasons why the build won't work:
+
+| variation                 | reason                 |
+|---------------------------|------------------------|
+| alpine | mysql role does not work on alpine. |
 
 
 ## [Testing](#testing)
