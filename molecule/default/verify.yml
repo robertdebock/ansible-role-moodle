@@ -12,4 +12,4 @@
         return_content: yes
       register: moodle_connect_to_installer
       failed_when:
-        - "'class=error' in moodle_connect_to_installer.stdout"
+        - "'class=error' in moodle_connect_to_installer.content"
