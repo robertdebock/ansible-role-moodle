@@ -32,6 +32,7 @@
   template:
     src: config.php.j2
     dest: "{{ moodle_httpd_data_directory }}/moodle/config.php"
+    mode: "0640"
 
 - name: setup cron job
   cron:
