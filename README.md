@@ -2,9 +2,9 @@
 
 Install and configure moodle on your system.
 
-|Travis|GitHub|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-moodle.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-moodle)|[![github](https://github.com/robertdebock/ansible-role-moodle/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-moodle/actions)|[![quality](https://img.shields.io/ansible/quality/52034)](https://galaxy.ansible.com/robertdebock/moodle)|[![downloads](https://img.shields.io/ansible/role/d/52034)](https://galaxy.ansible.com/robertdebock/moodle)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-moodle.svg)](https://github.com/robertdebock/ansible-role-moodle/releases/)|
+|Travis|GitHub|GitLab|Quality|Downloads|Version|
+|------|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-moodle.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-moodle)|[![github](https://github.com/robertdebock/ansible-role-moodle/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-moodle/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-moodle/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-moodle)|[![quality](https://img.shields.io/ansible/quality/52034)](https://galaxy.ansible.com/robertdebock/moodle)|[![downloads](https://img.shields.io/ansible/role/d/52034)](https://galaxy.ansible.com/robertdebock/moodle)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-moodle.svg)](https://github.com/robertdebock/ansible-role-moodle/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
