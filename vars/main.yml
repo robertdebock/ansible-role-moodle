@@ -23,6 +23,13 @@ _moodle_requirements:
     - php-intl
     - php-xmlrpc
     - php-soap
+  Debian-testing:
+    - php7.4-mysql
+    - php7.4-zip
+    - php7.4-gd
+    - php7.4-intl
+    - php7.4-xmlrpc
+    - php7.4-soap
   Suse:
     - php7-mysql
     - php7-zip
