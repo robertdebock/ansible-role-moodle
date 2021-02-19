@@ -7,12 +7,12 @@
   delegate_to: localhost
 
 - name: install requirements
-  package:
+  ansible.builtin.package:
     name: "{{ moodle_requirements }}"
     state: present
 
 - name: download and unpack moodle
-  unarchive:
+  ansible.builtin.unarchive:
     src: "{{ moodle_src }}"
     dest: "{{ moodle_httpd_data_directory }}"
     creates: "{{ moodle_httpd_data_directory }}/moodle"
@@ -22,7 +22,7 @@
     mode: "0755"
 
 - name: make directory
-  file:
+  ansible.builtin.file:
     path: "{{ moodle_data_directory }}"
     state: directory
     owner: "{{ moodle_httpd_owner }}"
@@ -30,12 +30,12 @@
     mode: "{{ moodle_directory_mode }}"
 
 - name: configure moodle
-  template:
+  ansible.builtin.template:
     src: config.php.j2
     dest: "{{ moodle_httpd_data_directory }}/moodle/config.php"
     mode: "0640"
 
 - name: setup cron job
-  cron:
+  ansible.builtin.cron:
     name: moodle
     job: "/usr/bin/php {{ moodle_httpd_data_directory }}/moodle/admin/cli/cron.php >/dev/null"
