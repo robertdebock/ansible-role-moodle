@@ -6,7 +6,7 @@
 
   tasks:
     - name: connect to installer
-      uri:
+      ansible.builtin.uri:
         url: "https://localhost/moodle/admin/index.php?cache=0&lang=en&agreelicense=1"
         validate_certs: no
         return_content: yes
