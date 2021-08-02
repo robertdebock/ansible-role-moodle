@@ -4,11 +4,11 @@ Install and configure moodle on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-moodle/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-moodle/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-moodle/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-moodle)|[![quality](https://img.shields.io/ansible/quality/52034)](https://galaxy.ansible.com/robertdebock/moodle)|[![downloads](https://img.shields.io/ansible/role/d/52034)](https://galaxy.ansible.com/robertdebock/moodle)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-moodle.svg)](https://github.com/robertdebock/ansible-role-moodle/releases/)|
+|[![github](https://github.com/robertdebock/ansible-role-moodle/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-moodle/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-moodle/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-moodle)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/robertdebock/moodle)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/robertdebock/moodle)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-moodle.svg)](https://github.com/robertdebock/ansible-role-moodle/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
-This example is taken from `molecule/resources/converge.yml` and is tested on each push, pull request and release.
+This example is taken from `molecule/default/converge.yml` and is tested on each push, pull request and release.
 ```yaml
 ---
 - name: converge
@@ -20,7 +20,7 @@ This example is taken from `molecule/resources/converge.yml` and is tested on ea
     - role: robertdebock.moodle
 ```
 
-The machine needs to be prepared in CI this is done using `molecule/resources/prepare.yml`:
+The machine needs to be prepared in CI this is done using `molecule/default/prepare.yml`:
 ```yaml
 ---
 - name: prepare
