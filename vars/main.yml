@@ -28,7 +28,6 @@ _moodle_requirements:
     - php-zip
     - php-gd
     - php-intl
-    - php-xmlrpc
     - php-soap
   Suse:
     - php7-mysql
