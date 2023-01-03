@@ -21,7 +21,6 @@ _moodle_requirements:
     - php-zip
     - php-gd
     - php-intl
-    - php-xmlrpc
     - php-soap
   Debian-testing:
     - php-mysql
