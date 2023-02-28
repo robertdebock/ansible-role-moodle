@@ -5,4 +5,4 @@
 repository:
   description: Install and configure moodle on your system.
   homepage: https://robertdebock.nl/
-  topics: moodle, ansible, molecule, tox, playbook, hacktoberfest
+  topics: moodle, ansible, molecule, tox, playbook
