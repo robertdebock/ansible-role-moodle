@@ -5,7 +5,7 @@
   gather_facts: yes
 
   tasks:
-    - name: connect to installer
+    - name: Connect to installer
       ansible.builtin.uri:
         url: "http://localhost/moodle/admin/index.php?cache=0&lang=en&agreelicense=1"
         return_content: yes
