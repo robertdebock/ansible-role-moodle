@@ -2,9 +2,9 @@
 
 Install and configure moodle on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-moodle/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-moodle/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-moodle/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-moodle)|[![quality](https://img.shields.io/ansible/quality/52034)](https://galaxy.ansible.com/robertdebock/moodle)|[![downloads](https://img.shields.io/ansible/role/d/52034)](https://galaxy.ansible.com/robertdebock/moodle)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-moodle.svg)](https://github.com/robertdebock/ansible-role-moodle/releases/)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/robertdebock/ansible-role-moodle/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-moodle/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-moodle/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-moodle)|[![downloads](https://img.shields.io/ansible/role/d/24543)](https://galaxy.ansible.com/robertdebock/moodle)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-moodle.svg)](https://github.com/robertdebock/ansible-role-moodle/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -136,7 +136,7 @@ The minimum version of Ansible required is 2.12, tests have been done to:
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-moodle/issues)
+If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-moodle/issues).
 
 ## [License](#license)
 
