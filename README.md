@@ -1,4 +1,4 @@
-# Ansible role [moodle](#moodle)
+# [Ansible role moodle](#moodle)
 
 Install and configure moodle on your system.
 
