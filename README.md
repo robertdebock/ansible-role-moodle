@@ -1,5 +1,7 @@
 # [Ansible role moodle](#moodle)
 
+> THIS ROLE HAS BEEN ARCHIVED AS OF DEC 2023.
+
 Install and configure moodle on your system.
 
 |GitHub|GitLab|Downloads|Version|
