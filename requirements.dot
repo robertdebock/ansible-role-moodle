@@ -1,0 +1,29 @@
+digraph PhiloDilemma {
+  label = "Robert de Bock" ;
+  overlap=false
+  {
+    "moodle" [fillcolor=yellow style=filled penwidth=3]
+    "robertdebock.bootstrap" [fillcolor=green style=filled]
+    "robertdebock.buildtools" [fillcolor=green style=filled]
+    "robertdebock.cron" [fillcolor=green style=filled]
+    "robertdebock.core_dependencies" [fillcolor=green style=filled]
+    "robertdebock.epel" [fillcolor=green style=filled]
+    "robertdebock.httpd" [fillcolor=green style=filled]
+    "robertdebock.mysql" [fillcolor=green style=filled]
+    "robertdebock.openssl" [fillcolor=green style=filled]
+    "robertdebock.php" [fillcolor=green style=filled]
+    "robertdebock.python_pip" [fillcolor=green style=filled]
+    "robertdebock.selinux" [fillcolor=green style=filled]
+  }
+  "moodle" -> "robertdebock.bootstrap"
+  "moodle" -> "robertdebock.buildtools"
+  "moodle" -> "robertdebock.cron"
+  "moodle" -> "robertdebock.core_dependencies"
+  "moodle" -> "robertdebock.epel"
+  "moodle" -> "robertdebock.httpd"
+  "moodle" -> "robertdebock.mysql"
+  "moodle" -> "robertdebock.openssl"
+  "moodle" -> "robertdebock.php"
+  "moodle" -> "robertdebock.python_pip"
+  "moodle" -> "robertdebock.selinux"
+}
